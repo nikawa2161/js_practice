@@ -12,27 +12,27 @@
 
 // スマートフォンを横にしたときの画面
 @media  (min-width: 480px) {
-  @import "breaakpoints/480up";
+  @import "breakpoints/480up";
 }
 // タブレット用
 @media  (min-width: 600px) {
-  @import "breaakpoints/600up";
+  @import "breakpoints/600up";
 }
 // タブレット 小さいPC用
 @media  (min-width: 960px) {
-  @import "breaakpoints/960up";
+  @import "breakpoints/960up";
 }
 // 通常のPC
 @media  (min-width: 1280px) {
-  @import "breaakpoints/1280up";
+  @import "breakpoints/1280up";
 }
 
 // Retinaディスプレイ用
 @media (min-resolution: 192dpi),
       (-webkit-min-device-pixel-ration: 2) {
-  @import "breakpointts/2x";
+  @import "breakpoints/2x";
 }
 
 @media print {
-  @import "breakpointts/print";
+  @import "breakpoints/print";
 }
