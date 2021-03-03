@@ -15,3 +15,31 @@ Stylesheet: 600px以上のタブレットやモニタで適用
     margin-bottom: 60px;
   }
 }
+
+.popular {
+  &__container {
+    // 親要素に設定
+    justify-content: space-between;
+
+  }
+  &__item {
+    flex-basis: 47%;
+
+  }
+}
+
+.travel {
+  &__inner {
+    padding: 50px;
+  }
+  //こ要素にflex-basisを設定する
+  &__texts,
+  &__img {
+    flex-basis: 47%;
+  }
+
+  &__texts {
+    display: flex;
+    align-items: flex-end;
+  }
+}
